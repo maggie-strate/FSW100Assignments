@@ -1,0 +1,10 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    color:blue;
+    text-decoration:underline
+}
+table, th, td, tr {
+    border:1px dotted black;
+}   
