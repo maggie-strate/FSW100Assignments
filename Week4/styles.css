@@ -1,0 +1,56 @@
+html {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 15px; 
+}
+nav {
+    margin:0;
+    padding:0;
+    float:left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: sienna solid 10px;
+}
+.menuitem1{
+    padding: 20px;
+    text-decoration: black none;
+    font-size: 25px;
+}
+.menuitem2 {
+    padding: 20px;
+    text-decoration:black none;
+    font-size: 25px;
+}
+.menuitem2 a{
+    text-decoration: none;
+}
+.blogheader{
+    margin-top: 75px;
+    margin-left:500px;
+    font-size: larger;
+}
+.birthdaycontainer{
+    float:left;
+}
+.birthdayimage{
+    position:left;
+    height:300px;
+    width:300px;
+}
+.chesscontainer{
+    float:left;
+}
+.chessimage{
+    position:left;
+    height:300px;
+    width:400px;
+}
+.christmascontainer{
+    float:left;
+}
+.christmasimage{
+    position:left;
+    height:300px;
+    width:300;
+}
+
