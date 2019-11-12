@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-size: 0px;
+}
+.gridcontainer{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns:auto auto auto auto;
+    height:1000px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    padding: 0px;
+}
+.purple{
+    background-color: #F5C6D6;
+    grid-row: 1/1;
+    border: 15px solid white;
+    grid-column: 1/span 4;
+}
+.pink1{
+    background-color: #EE2E84;
+    border: 15px solid white;
+    grid-row:2/2;
+    grid-column: 1/1;
+}
+.pink2{
+    background-color: #EE2E84;
+    border: 15px solid white;
+    grid-row:2/2;
+    grid-column: 2/2;
+}
+.pink3{
+    background-color: #EE2E84;
+    border: 15px solid white;
+    grid-row:2/2;
+    grid-column: 3/3;
+}
+.pink4{
+    background-color: #EE2E84;
+    border: 15px solid white;
+    grid-row:2/2;
+    grid-column: 4/4;
+}
+.blue1{
+    background-color: #85CFD8;
+    border: 15px solid white;
+    grid-row:3/3;
+    grid-column: 1/span 2;
+    width:100%;
+}
+.blue2{
+    background-color: #85CFD8;
+    border: 15px solid white;
+    grid-row:3/3;
+    grid-column: 3/span 2;
+}
+.green{
+    background-color: #8DC63F;
+    border: 15px solid white;
+    grid-row:4/4;
+    grid-column: 1/span 3;
+}
+.orange{
+    background-color: #E76E34;
+    border: 15px solid white;
+    grid-row:4/4;
+    grid-column: 4/4;
+}
+@media only screen and (max-width:768px){
+    .purple{
+        width:100%;
+        grid-row: 1/1;
+        grid-column: 1/span 4;
+    }
+    .pink1{        
+        width:100%;
+        grid-row: 2/2;
+        grid-column: 1/span 4;
+    }
+    .pink2{
+        width:100%;
+        grid-row: 3/3;
+        grid-column: 1/span 4;
+    }
+    .pink3{
+        width:100%;
+        grid-row: 4/4;
+        grid-column: 1/span 4;
+    }
+    .pink4{
+        width:100%;
+        grid-row: 5/5;
+        grid-column: 1/span 4;
+
+    }
+    .blue1{
+        width:100%;
+        grid-row: 6/6;
+        grid-column: 1/span 4;
+    }
+    .blue2{
+        width:100%;
+        grid-row: 7/7;
+        grid-column: 1/span 4;
+    }
+    .green{
+        width:100%;
+        grid-row: 8/8;
+        grid-column: 1/span 4;
+    }
+    .orange{
+        width:100%;
+        grid-row: 9/9;
+        grid-column: 1/span 4;
+    }
+    
+}
