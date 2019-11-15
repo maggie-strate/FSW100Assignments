@@ -1,0 +1,176 @@
+/*Original Image*/
+/*Phone*/
+@media only screen and (min-width:320px) and (max-width:767px){
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px 220px 100px 100px;
+    margin-top:50px;
+    width: 100%;
+}
+
+.header-box{
+    background-color:#919187;
+    grid-row: 1/1;
+    grid-column: 1/5;
+    border: white solid 15px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+.sidebar-box{
+    background-color:#1A0E08;
+    grid-row: 2/2;
+    grid-column: 1/5;
+    border: white solid 15px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+.content-box{
+    background-color: #1A0E08;
+    grid-row: 3/3;
+    grid-column: 1/5;
+    border: white solid 15px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+.sidebar2-box{
+    background-color: #D1D0C2;
+    grid-row: 4/4;
+    grid-column: 1/5;
+    border: white solid 15px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+.footer-box{
+    background-color: #919187;
+    grid-row: 5/5;
+    grid-column: 1/5;
+    border: white solid 15px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+}
+
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 220px 100px 100px;
+        margin-top:50px;
+        width: 100%;
+    }
+    
+    .header-box{
+        background-color:#919187;
+        grid-row: 1/1;
+        grid-column: 1/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+    .sidebar-box{
+        background-color:#1A0E08;
+        grid-row: 2/2;
+        grid-column: 1/2;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+    .content-box{
+        background-color: #1A0E08;
+        grid-row: 2/2;
+        grid-column: 2/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+    .sidebar2-box{
+        background-color: #D1D0C2;
+        grid-row: 3/3;
+        grid-column: 1/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+    .footer-box{
+        background-color: #919187;
+        grid-row: 4/4;
+        grid-column: 1/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+}
+
+/*Laptop*/
+@media only screen and (min-width:1025px) and (max-width:1366px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:  100px 220px 100px;
+        margin-top:50px;
+        width: 100%;
+    }
+    
+    .header-box{
+        background-color:#919187;
+        grid-row: 1/1;
+        grid-column: 1/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+    .sidebar-box{
+        background-color:#1A0E08;
+        grid-row: 2/2;
+        grid-column: 1/2;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+        height: 220px;
+    }
+    .content-box{
+        background-color: #1A0E08;
+        grid-row: 2/2;
+        grid-column: 2/4;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+        height: 220px;
+    }
+    .sidebar2-box{
+        background-color: #D1D0C2;
+        grid-row: 2/2;
+        grid-column: 4/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+        height: 220px;
+    }
+    .footer-box{
+        background-color: #919187;
+        grid-row: 3/3;
+        grid-column: 1/5;
+        border: white solid 15px;
+        font-size: 30px;
+        color: white;
+        border-radius: 25px;
+    }
+
+}
+
