@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container > div{
+    width: 300px;
+    line-height: 200px;
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+    border: white solid 15px;
+    transition: background-color 1s linear, width 1s linear, border 1s linear, height 1s linear, opacity 1s linear, border-radius 1s linear;
+}
+.box1:hover{
+    background-color: #FF5449;
+    width: 400px;
+}
+.box2:hover{
+    border: black 15px dotted;
+    background-color: #5AFFC9;
+}
+.box3:hover{
+    background-color: #FF977B;
+    border: purple solid 10px;
+}
+.box4:hover{
+    background-color: seagreen;
+    height: 400px;
+}
+.box5:hover{
+    opacity: 0.2;
+    background-color: steelblue;
+}
+.box6:hover{
+    border-radius: 50%;
+    background-color: #D15AE8;
+    opacity: 0.5;
+    height: 400px;
+}
