@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="contact.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+        <title>Amelia Photography</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <!--Navigation Box-->
+        <section class="top-nav">
+            <nav class="nav-items">
+                <a id="home" href="home.html">Home</a>
+                <a id="about" href="about.html">About</a>
+                <a id="gallery" href="gallery.html">Gallery</a>
+                <a id="services" href="services.html">Services</a>
+                <a id="pricing" href="pricing.html">Pricing</a>
+                <a id="contact" href="contact.html">Contact</a>
+            </nav>
+        </section>
+        <!--Site Header Box-->
+        <header class="site-header">
+            <h1>Amelia Photography</h1>
+            <h2>Contact Us</h2>
+        </header>
+        <!--Home Image Box-->
+        <section class="top-image">
+            <img class="home-image" src="./marble.jpg" alt="top image. picture of marble."/>
+        </section>
+        <!--Contact form container-->
+        <div class="form-container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Booking Details.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+    </body>
+</html>

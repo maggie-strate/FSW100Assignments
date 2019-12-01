@@ -1,0 +1,139 @@
+html{
+    background-color: #FFE5E3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    gap: 20px;
+}
+.top-nav{
+    grid-column: 1/2;
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    height:50px;
+    width: 100%;
+    background-color: turquoise;
+    border: white dotted 10px;
+    transition: background-color 1s linear;
+}
+.nav-items>a:hover{
+    background-color: salmon;
+}
+#home{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#about{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#gallery{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#services{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#pricing{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+#contact{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.site-header{
+    grid-column: 1/2;
+    width: 100%;
+}
+.site-header >:nth-child(1){
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+}
+.site-header >:nth-child(2){
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.top-image{
+    grid-column: 1/2;
+}
+.home-image{
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
