@@ -140,3 +140,15 @@ td{
     height: 40px;
     margin-top: 20px;
 }
+/*Phone*/
+@media only screen and (min-width:320px) and (max-width:767px){
+
+}
+/*Laptop*/
+@media only screen and (min-width:1025px) and (max-width:3066px){
+
+}
+/*Tablet*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    
+}
